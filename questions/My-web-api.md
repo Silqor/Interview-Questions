@@ -15,8 +15,7 @@
 
      ```javascript
      // Создание куки
-     document.cookie =
-       'username=John Doe; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/';
+     document.cookie = 'username=John Doe; expires=Thu, 18 Dec 2023x 12:00:00 UTC; path=/';
      ```
 
   2. **localStorage:**
@@ -83,8 +82,7 @@
 
   ```javascript
   // Cookies
-  document.cookie =
-    'username=John Doe; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/';
+  document.cookie = 'username=John Doe; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/';
   const cookieValue = document.cookie;
 
   // localStorage
@@ -172,3 +170,5 @@
 - [Что такое межсайтовый скриптинг (XSS)?](https://youtu.be/ovV8GhIkzBE?t=292)
 - [Методы повышения безопасности веб-приложений?](https://youtu.be/DZjIcc6KdjE?t=347)
 - [Что такое OWASP Top 10?](https://youtu.be/DZjIcc6KdjE?t=419)
+
+JS: 
